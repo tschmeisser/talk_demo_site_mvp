@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+a {
+  color: #0055cc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Header / Nav */
+header {
+  padding: 2rem 0 1rem;
+  border-bottom: 1px solid #e0e0e0;
+  margin-bottom: 2rem;
+}
+
+header .site-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+header .site-name a {
+  color: #333;
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.9rem;
+}
+
+nav a {
+  color: #555;
+}
+
+nav a:hover,
+nav a.active {
+  color: #000;
+}
+
+/* Main */
+main {
+  min-height: 60vh;
+  padding-bottom: 3rem;
+}
+
+h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.75rem;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+/* News list */
+.news-list {
+  list-style: none;
+}
+
+.news-list li {
+  padding: 1.25rem 0;
+  border-bottom: 1px solid #eee;
+}
+
+.news-list li:first-child {
+  padding-top: 0;
+}
+
+.news-list .date {
+  font-size: 0.8rem;
+  color: #888;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.news-list h2 {
+  margin-bottom: 0.25rem;
+}
+
+.news-list p {
+  margin-bottom: 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+/* Article */
+article .meta {
+  font-size: 0.85rem;
+  color: #888;
+  margin-bottom: 1.5rem;
+}
+
+article p {
+  margin-bottom: 1.25rem;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Contact form */
+form {
+  max-width: 480px;
+}
+
+label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: inherit;
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+}
+
+textarea {
+  height: 8rem;
+  resize: vertical;
+}
+
+button {
+  background: #333;
+  color: #fff;
+  border: none;
+  padding: 0.6rem 1.5rem;
+  border-radius: 4px;
+  font-size: 0.95rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #555;
+}
+
+/* Footer */
+footer {
+  border-top: 1px solid #e0e0e0;
+  padding: 1.5rem 0;
+  font-size: 0.8rem;
+  color: #999;
+  display: flex;
+  justify-content: space-between;
+}
